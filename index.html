@@ -10,16 +10,17 @@
   <header class="site-header">
     <h1>The Zen Den</h1>
     <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="spamenu.html">Spa Menu</a>
-      <a href="wellness.html">Wellness Nook</a>
-      <a href="testimonials.html">Testimonials</a>
-      <a href="BookAppointment.html">Book Appointment</a>
+      <a href="#index.html">Home</a>
+      <a href="#spa-menu">Spa Menu</a>
+      <a href="#wellness">Wellness Nook</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#book-appointment">Book Appointment</a>
     </nav>
   </header>
 
 
     <section class="hero">
+        <img src="./images/background.jpg" alt="Spa Background Image">
       <h2>Welcome to Relaxation</h2>
       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Quia voluptates molestiae quo odio minus quae, quasi, 
@@ -27,10 +28,9 @@
           At voluptas consequuntur nobis.</p>
     </section>
 
-    <section class="services">
+    <section id="spa-menu" class="spa-menu">
       <h2>Our Spa Menu</h2>
-      <div class="columns">
-        <div class="column">
+        <img src="./images/Facial.jpg" alt="Facial Treatments">
           <h3>Facial Treatments</h3>
           <ul>
            <li>Brightening Facial - $80</li>
@@ -39,8 +39,7 @@
             <li>Collagen Boost Facial - $80</li>
             <li>Anti-Aging Facial - $80</li>
           </ul>
-        </div>
-        <div class="column">
+            <img src="./images/massage.jpg" alt="Massage Therapies">
           <h3>Massage Therapies</h3>
           <ul>
            <li>Swedish Massage - $60</li>
@@ -49,8 +48,7 @@
             <li>Aromatherapy Massage - $60</li>
             <li>Reflexology - $60</li>
           </ul>
-          </div>
-          <div class="column">
+            <img src="./images/aromatherapy.jpg" alt="Aromatherapy">
           <h3>Aromatherapy</h3>
           <ul>
             <li>Lavender Relaxation - $55</li>
@@ -59,31 +57,24 @@
             <li>Calming Chamomile - $55</li>
             <li>Tea Tree Purify - $55</li>
           </ul>
-        </div>
-        </div>
+      
     </section>
 
-     <section class="wellness">
+     <section id="wellness">
       <h2>The Wellness Nook</h2>
-      <div class="columns">
-        <div class="column">
           <h3>The Secret to Radiant Skin</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
              Sequi, facere, quaerat eligendi laudantium excepturi nisi vitae laboriosam tempora, 
              inventore modi qui ullam optio minima ex assumenda quisquam.
              Iusto, reiciendis molestias.</p>
-        </div>
-        <div class="column">
           <h3>Wind Down Naturally</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
              Doloribus, voluptatum. Quisquam, cumque. 
              Doloremque, voluptates. Quasi, cumque. 
              Doloremque, voluptates. Quasi, cumque.</p>
-          </div>
-        </div>
         </section>
 
-    <section class="testimonials">
+    <section id="testimonials">
       <h2>What Our Clients Say</h2>
       <blockquote>
         “Best massage experience ever!..." – Ana
@@ -96,22 +87,21 @@
       </blockquote>
     </section>
 
-    <section class="BookAppointment">
+    <section id="book-appointment">
       <h2>Book Appointment</h2>
-        <div>
+    </section>
+    <div>
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="Full Name" required>
-        </div>
+    </div>
         <div>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-        </div>
-        <div>   
+        </div>  
          <div class="multiselect">
          <div class="selectBox" onclick="showCheckboxes()">
         Choose your preferred service(s):
-        </div>
-        </div>
+         </div>
         </div>
     <div id="checkboxes">
       <label for="one">
@@ -123,22 +113,25 @@
       <label for="three">
         <input type="checkbox" id="three" name="Aromatherapy" value="option3">Aromatherapy
       </label>
+    </div>
     <div>
         What day would you like to book your appointment?
+    </div>
         <div>
       <input type="date" id="date" name="date" required>
+        </div>
+      <div>
+ Choose your preferred time:
       </div>
-        <div> Choose your preferred time:
-        </div>      
         <div>
         <input type="time" id="time" name="time" required>
-      </div>
-    </div>
-  </div>
+
+        </div>
+
 
 
         <button type="submit">Submit</button>
-    </section>
+
 
 
 
