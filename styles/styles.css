@@ -13,3 +13,37 @@ body {
   line-height: 1.6;
   padding: 0 20px;
 }
+
+.site-header {
+  background-color: #c7c3be;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 4px double #706e69;
+  border-bottom: 4px double #706e69;
+  border-left: 4px double #706e69;
+  border-right: 4px double #706e69;
+}
+
+.site-header h1 {
+  font-family: "montecarlo", cursive;
+  font-size: 5rem;
+  color: #897e7e;
+  margin-bottom: 10px;
+}
+
+.main-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #897e7e;
+  font-style: italic;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+.main-nav :hover {
+  background-color: #f1f0f0;
+}
+
+
+

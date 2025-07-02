@@ -19,6 +19,7 @@ The Zen Den is a spa-themed website created to promote self-care and a peaceful 
 -'HTML5' - For Page Structure and content
 -'CSS3' - For styling, layout, and responsiveness
 -'Formspree' - For adding functionality (form submission)
+- Google fonts - For customization
 
 ## Ideas for Future Improvement
 - Adding user accounts for returning visitors to be able to log in, view past bookings and schedule new, and leave personalized feedback.
