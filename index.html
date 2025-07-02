@@ -10,7 +10,7 @@
   <header class="site-header">
     <h1>The Zen Den</h1>
     <nav class="main-nav">
-      <a href="#index.html">Home</a>
+      <a href="#index.html">Home</a> 
       <a href="#spa-menu">Spa Menu</a>
       <a href="#wellness">Wellness Nook</a>
       <a href="#testimonials">Testimonials</a>
@@ -20,7 +20,7 @@
 
 
     <section class="hero">
-        <img src="./images/background.jpg" alt="Spa Background Image">
+        <img src="./images/background.jpg" width="800" alt="Spa Background Image">
       <h2>Welcome to Relaxation</h2>
       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Quia voluptates molestiae quo odio minus quae, quasi, 
@@ -30,7 +30,7 @@
 
     <section id="spa-menu" class="spa-menu">
       <h2>Our Spa Menu</h2>
-        <img src="./images/Facial.jpg" alt="Facial Treatments">
+        <img src="./images/Facial.jpg" width="400" alt="Facial Treatments">
           <h3>Facial Treatments</h3>
           <ul>
            <li>Brightening Facial - $80</li>
@@ -39,7 +39,7 @@
             <li>Collagen Boost Facial - $80</li>
             <li>Anti-Aging Facial - $80</li>
           </ul>
-            <img src="./images/massage.jpg" alt="Massage Therapies">
+            <img src="./images/massage.jpg" width="400" alt="Massage Therapies">
           <h3>Massage Therapies</h3>
           <ul>
            <li>Swedish Massage - $60</li>
@@ -48,7 +48,7 @@
             <li>Aromatherapy Massage - $60</li>
             <li>Reflexology - $60</li>
           </ul>
-            <img src="./images/aromatherapy.jpg" alt="Aromatherapy">
+            <img src="./images/aromatherapy.jpg" width="400" alt="Aromatherapy">
           <h3>Aromatherapy</h3>
           <ul>
             <li>Lavender Relaxation - $55</li>
@@ -90,29 +90,43 @@
     <section id="book-appointment">
       <h2>Book Appointment</h2>
     </section>
-    <div>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="Full Name" required>
+
+   <form action="https://formspree.io/f/xeokdakd" method="POST">
+    <div class="form-row">
+        <label>
+            Full Name:
+            <input type="text" name="Full Name" required>
+        </label>
     </div>
-        <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        </div>  
+    <div class="form-row">
+        <label>
+            Email:
+            <input type="email" name="Email" required>
+        </label>
+    </div>
+    <div class="form-row">
          <div class="multiselect">
          <div class="selectBox" onclick="showCheckboxes()">
         Choose your preferred service(s):
          </div>
         </div>
-    <div id="checkboxes">
-      <label for="one">
-        <input type="checkbox" id="one" name="Massage" value="option1">Massage
-      </label>
-      <label for="two">
-        <input type="checkbox" id="two" name="Facial" value="option2">Facial
-      </label>
-      <label for="three">
-        <input type="checkbox" id="three" name="Aromatherapy" value="option3">Aromatherapy
-      </label>
+        </div>
+        <div class="form-row">
+        <fieldset>
+      <legend>Services</legend>
+      <label>
+         <input type="checkbox" name="Massage"> 
+         Massage
+        </label>
+        <label>
+        <input type="checkbox" name="Facial">
+        Facial
+        </label>
+        <label>
+        <input type="checkbox" name="Aromatherapy"> 
+        Aromatherapy
+        </label>
+        </fieldset>
     </div>
     <div>
         What day would you like to book your appointment?
@@ -130,8 +144,10 @@
 
 
 
-        <button type="submit">Submit</button>
-
+        <div class="form-row">
+          <button type="submit" class="submit-button">Submit</button>
+</div>
+</form>
 
 
 
