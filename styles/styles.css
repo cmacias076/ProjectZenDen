@@ -16,10 +16,11 @@ body {
 
 .site-header {
   background-color: #c7c3be;
+  opacity: 0.7;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
   border-radius: 10px;;
-  padding: 20px 10px;
+  padding: 50px 25px;
   border-top: 4px double #706e69;
   border-bottom: 4px double #706e69;
   border-left: 4px double #706e69;
@@ -49,8 +50,7 @@ body {
 
 .hero {
   text-align: center;
-  background-color: #c7c3be;
-  padding: 40px 20px;
+  padding: 50px 25px;
   margin-top: 10px;
   border-radius: 10px;
   border-style:double;
@@ -81,6 +81,12 @@ body {
 
 .spa-menu {
   padding: 50px 25px;
+  margin: 25px 0;
+  border-radius: 10px;
+  border-top: 4px double #706e69;
+  border-bottom: 4px double #706e69;
+  border-left: 4px double #706e69;
+  border-right: 4px double #706e69;
 }
 
 .spa-menu h2 {
@@ -90,8 +96,8 @@ body {
 }
 
 .spa-menu h3 {
-  margin-top: 30px;
-  color: #7a6e58;
+  margin-top: 40px;
+  color: #897e7e;
 }
 .spa-menu ul {
   margin-left: 20px;
@@ -104,4 +110,134 @@ body {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
+}
+
+#wellness {
+  padding: 50px 25px;
+  margin: 25px 0;
+  border-radius: 10px;
+  border-top: 4px double #706e69;
+  border-bottom: 4px double #706e69;
+  border-left: 4px double #706e69;
+  border-right: 4px double #706e69;
+}
+
+#wellness h2 {
+  color: #685b4c;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#wellness h3 {
+  color: #897e7e;
+  margin-top: 20px;
+}
+
+#testimonials {
+  padding: 50px 25px;
+  border-radius: 10px;
+  border-top: 4px double #706e69;
+  border-bottom: 4px double #706e69;
+  border-left: 4px double #706e69;
+  border-right: 4px double #706e69;
+}
+
+
+#testimonials h2 {
+  margin: 25px 0;
+  color: #7a6e58;
+  margin-bottom: 20px;
+}
+
+#testimonials blockquote {
+  font-style: italic;
+  color: #897e7e;
+  margin: 20px auto;
+  max-width: 600px;
+  border-left: 5px solid #b89c6b;
+  padding-left: 15px;
+}
+
+#book-appointment {
+  margin: 25px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border-top: 4px double #706e69;
+  border-left: 4px double #706e69;
+  border-right: 4px double #706e69;
+  border-bottom: 4px double #706e69;
+}
+
+#book-appointment h2 {
+  color:#7a6e58;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-top: 4px double #706e69;
+  border-left: 4px double #706e69;
+  border-right: 4px double #706e69;
+  border-bottom: 4px double #706e69;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #897e7e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+legend {
+  font-weight: bold;
+  color: #7a6e58;
+}
+
+.submit-button {
+  background-color: #7a6e58;
+  color: #e2d1d1;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #a48859;
+}
+
+/* ====== Footer ====== */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e8dfd3;
+  color: #7a6e58;
+  font-size: 0.9rem;
+  margin-top: 40px;
 }
