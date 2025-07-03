@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>The Zen Den</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=MonteCarlo&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
   
@@ -11,13 +12,24 @@
 
   <header class="site-header">
     <h1>The Zen Den</h1>
-    <nav class="main-nav">
-      <a href="#index.html">Home</a> 
-      <a href="#spa-menu">Spa Menu</a>
-      <a href="#wellness">Wellness Nook</a>
-      <a href="#testimonials">Testimonials</a>
-      <a href="#book-appointment">Book Appointment</a>
-    </nav>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="font-family: 'MonteCarlo', serif;">The Zen Den</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#zenNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="zenNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#index.html">Home |</a></li>
+        <li class="nav-item"><a class="nav-link" href="#spa-menu">Spa Menu |</a></li>
+        <li class="nav-item"><a class="nav-link" href="#wellness">Wellness Nook |</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials |</a></li>
+        <li class="nav-item"><a class="nav-link" href="#book-appointment">Book</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
   </header>
 
 
@@ -39,44 +51,46 @@
         <img src="./images/Facial.jpg" width="400" alt="Facial Treatments">
           <h3>Facial Treatments</h3>
           <ul>
-           <li>Brightening Facial - $80</li>
-           <p>Lorem ipsum dolor sit amet.</p>
-            <li>Hydrating Facial - $80</li>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <li>Acne Treatment Facial - $80</li>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <li>Collagen Boost Facial - $80</li>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            <li>Anti-Aging Facial - $80</li>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, labore!</p>
-          </ul>
+           <li>Brightening Facial - $80
+           Lorem ipsum dolor sit amet.</li>
+            <li>Hydrating Facial - $80
+         Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Acne Treatment Facial - $80
+            Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Collagen Boost Facial - $80
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+            <li>Anti-Aging Facial - $80
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, labore!
+            </li>
+        </ul>
             <img src="./images/massage.jpg" width="400" alt="Massage Therapies">
           <h3>Massage Therapies</h3>
           <ul>
-           <li>Swedish Massage - $60</li>
-           <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <li>Deep Tissue Massage - $60</li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <li>Hot Stone Therapy - $60</li>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <li>Aromatherapy Massage - $60</li>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <li>Reflexology - $60</li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+           <li>Swedish Massage - $60
+           Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Deep Tissue Massage - $60
+            Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            <li>Hot Stone Therapy - $60
+            Lorem ipsum dolor sit amet.</li>
+            <li>Aromatherapy Massage - $60
+            Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Reflexology - $60
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </li>
           </ul>
             <img src="./images/aromatherapy.jpg" width="400" alt="Aromatherapy">
           <h3>Aromatherapy</h3>
           <ul>
-            <li>Lavender Relaxation - $55</li>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <li>Citrus Energy Boost - $55</li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <li>Rose Renewal - $55</li>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <li>Calming Chamomile - $55</li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <li>Tea Tree Purify - $55</li>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <li>Lavender Relaxation - $55
+            Lorem ipsum dolor sit amet.</li>
+            <li>Citrus Energy Boost - $55
+            Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            <li>Rose Renewal - $55
+            Lorem ipsum dolor sit amet.</li>
+            <li>Calming Chamomile - $55
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Tea Tree Purify - $55
+            Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
           </ul>
       
     </section>
@@ -177,5 +191,6 @@
     <p>&copy; 2025 The Zen Den Spa. All rights reserved.</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
