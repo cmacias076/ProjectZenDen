@@ -42,6 +42,9 @@ body {
 section {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  scroll-margin-top: 100px;
 }
 
 .site-header {
@@ -139,11 +142,17 @@ section {
   margin-top: 20px;
 }
 
+
+#testimonials {
+  color:#685b4c;
+}
 .carousel {
+  color:#685b4c;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
 
 .blockquote p {
   font-size: 1.5rem;
@@ -204,7 +213,8 @@ fieldset {
   border: 1px solid #cccccc74;
   border-radius: 6px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 legend {
@@ -216,6 +226,7 @@ legend {
   background-color: rosybrown;
   color: #e2d1d1;
   padding: 12px 25px;
+  margin-top: 20px;
   border: none;
   border-radius: 6px;
   font-size: 1rem;
