@@ -195,12 +195,13 @@ input[type="time"] {
   text-align: center;
   width: 100%;
   padding: 10px;
+  background-color: rgba(188, 143, 143, 0.69);
   border: 1px solid #ccc;
   border-radius: 6px;
 }
 
 fieldset {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc74;
   border-radius: 6px;
   padding: 10px;
   margin-top: 10px;
@@ -212,7 +213,7 @@ legend {
 }
 
 .submit-button {
-  background-color: #7a6e58;
+  background-color: rosybrown;
   color: #e2d1d1;
   padding: 12px 25px;
   border: none;
@@ -222,7 +223,7 @@ legend {
 }
 
 .submit-button:hover {
-  background-color: #a48859;
+  background-color: rgb(127, 98, 98);
 }
 
 .site-footer {
