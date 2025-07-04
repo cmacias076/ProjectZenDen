@@ -121,13 +121,11 @@ section {
 }
 
 #wellness {
-  padding: 40px 20px;
-  margin: 50px 0;
+  text-align: center;
+  padding: 40px 25px;
+  margin-top: 10px;
   border-radius: 10px;
-  border-top: 4px double #706e69;
-  border-bottom: 4px double #706e69;
-  border-left: 4px double #706e69;
-  border-right: 4px double #706e69;
+  border-style:double;
 }
 
 #wellness h2 {
@@ -141,51 +139,41 @@ section {
   margin-top: 20px;
 }
 
-#testimonials {
-  padding: 40px 20px;
-  border-radius: 10px;
+.carousel {
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-#testimonials h2 {
-  margin: 25px 0;
-  color: #7a6e58;
-  margin-bottom: 20px;
+.blockquote p {
+  font-size: 1.5rem;
+  color: #e2d1d1;
 }
 
-#testimonials blockquote {
+.blockquote-footer {
   font-style: italic;
-  color: #897e7e;
-  margin: 20px auto;
-  max-width: 600px;
-  border-left: 5px solid #b89c6b;
-  padding-left: 15px;
+  color: #7a6e58;
 }
 
 #book-appointment {
-  margin-bottom: 30px;
-  padding: 40px 20px 20px;
-  border-radius: 10px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 0px;
   border-top: 4px double #706e69;
-  border-left: 4px double #706e69;
-  border-right: 4px double #706e69;
   border-bottom: 4px double #706e69;
-  text-align: center;
 }
 
 #book-appointment h2 {
   color:#7a6e58;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  text-align: center;
+  margin: 30px 0;
 }
 
 form {
   max-width: 600px;
   margin: 0 auto;
   padding: 30px;
-  border-top: 4px double #706e69;
-  border-left: 4px double #706e69;
-  border-right: 4px double #706e69;
-  border-bottom: 4px double #706e69;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -193,6 +181,7 @@ form {
 .form-row {
   margin-bottom: 20px;
 }
+
 label {
   display: block;
   margin-bottom: 6px;
@@ -239,7 +228,6 @@ legend {
 .site-footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(232, 223, 211, 0.8);
   color: #7a6e58;
   font-size: 0.9rem;
   margin-top: 40px;

@@ -88,7 +88,7 @@
 
 
      <section id="wellness" class="container my-5">
-          <h2 class="text-center mb-4">The Wellness Nook</h2>
+          <h2 class="text-center md-4">The Wellness Nook</h2>
           <div class="row">
       <div class="col-md-6">
           <h3>The Secret to Radiant Skin</h3>
@@ -108,18 +108,47 @@
       </div>
     </section>  
 
-    <section id="testimonials">
-      <h2>What Our Clients Say</h2>
-      <blockquote>
-        “Best massage experience ever!..." – Ana
-      </blockquote>
-      <blockquote>
-        “So tranquil, I love The Zen Den!” – Jordan
-      </blockquote>
-      <blockquote>
-        “An excellent Spa" – Sonya
-      </blockquote>
-    </section>
+    <section class="container my-5">
+         <h2 class="text-center mb-4">What Our Clients Say</h2>
+          <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active text-center">
+        <blockquote class="blockquote">
+          <p class="mb-4">“Best massage experience ever! I feel renewed every time I visit.”</p>
+          <footer class="blockquote-footer">Ana</footer>
+        </blockquote>
+      </div>
+      
+      <div class="carousel-item text-center">
+        <blockquote class="blockquote">
+          <p class="mb-4">“So tranquil, I love The Zen Den!”</p>
+          <footer class="blockquote-footer">Jordan</footer>
+        </blockquote>
+      </div>
+      
+      <div class="carousel-item text-center">
+        <blockquote class="blockquote">
+          <p class="mb-4">“An excellent spa — relaxing, professional, and beautiful.”</p>
+          <footer class="blockquote-footer">Sonya</footer>
+        </blockquote>
+      </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+  
+
+
+
+
 
     <section id="book-appointment">
       <h2>Book Appointment</h2>
