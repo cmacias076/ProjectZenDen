@@ -4,12 +4,10 @@
   box-sizing: border-box;
 }
 
-.navbar-light {
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  background-color: rosybrown;
-
+html {
+  scroll-behavior: smooth;
 }
+
 .navbar-transparent {
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(8px);
@@ -29,7 +27,7 @@
 }
 
 body {
-  font-family: "'Georgia', serif";
+  font-family: "Georgia', serif";
   background: url('../images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   text-align: center;
@@ -48,8 +46,6 @@ section {
   font-style: italic;
 }
 
-
-
 .site-header {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -58,7 +54,7 @@ section {
 }
 
 .site-header h1 {
-  font-family: "montecarlo", cursive;
+  font-family: "MonteCarlo", cursive;
   font-size: 5rem;
   font-style: italic;
   color: #7a6e58;
@@ -83,7 +79,7 @@ section {
 
 .hero h2 {
   font-size: 3rem;
-  font-family: "montecarlo", cursive;
+  font-family: "MonteCarlo", cursive;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   color: #7a6e58;
   margin-bottom: 10px;
@@ -203,7 +199,7 @@ form {
 label {
   display: block;
   margin-bottom: 6px;
-  color: #897e7e;
+  color: #daa6a6;
 }
 
 input[type="text"],
@@ -213,13 +209,21 @@ input[type="time"] {
   text-align: center;
   width: 100%;
   padding: 10px;
-  background-color: rgba(188, 143, 143, 0.69);
+  background-color: rgb(247, 223, 223);
   border: 1px solid #ccc;
   border-radius: 6px;
 }
 
+.selectBox {
+  padding: 10px;
+  background-color: rgb(247, 223, 223);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 fieldset {
-  border: 1px solid #cccccc74;
+  border: 1px solid #e0d9d974;
   border-radius: 6px;
   padding: 10px;
   margin-top: 20px;
