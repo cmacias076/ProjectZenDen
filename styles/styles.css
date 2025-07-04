@@ -45,6 +45,7 @@ section {
   margin-top: 80px;
   margin-bottom: 80px;
   scroll-margin-top: 100px;
+  font-style: italic;
 }
 
 .site-header {
@@ -97,10 +98,12 @@ section {
 .spa-menu {
   padding: 40px 20px;
   margin: 25px 0;
+  font-style: italic;
 }
 
 .spa-menu h2 {
   text-align: center;
+  text-decoration: underline;
   margin-bottom: 30px;
   color: #7a6e58;
 }
@@ -146,6 +149,7 @@ section {
 #testimonials {
   color:#685b4c;
 }
+
 .carousel {
   color:#685b4c;
   padding: 40px;
@@ -174,6 +178,7 @@ section {
 }
 
 #book-appointment h2 {
+  margin: 0 auto;
   color:#7a6e58;
   text-align: center;
   margin: 30px 0;
